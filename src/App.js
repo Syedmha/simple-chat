@@ -4,18 +4,17 @@ import './App.css';
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import 'firebase/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-    apiKey: "AIzaSyC6Ye-szeQCOyW871hZKXHvuyTsSOzXU5s",
-    authDomain: "simplechat-83c47.firebaseapp.com",
-    projectId: "simplechat-83c47",
-    storageBucket: "simplechat-83c47.appspot.com",
-    messagingSenderId: "1067985953467",
-    appId: "1:1067985953467:web:bd6d109dd2957171adbf9e"
+  apiKey: "AIzaSyDMOJA5S7izzekV_pSkRs_tlqPy-oyOYNY",
+  authDomain: "simplechat-6ba0a.firebaseapp.com",
+  projectId: "simplechat-6ba0a",
+  storageBucket: "simplechat-6ba0a.appspot.com",
+  messagingSenderId: "1065572734890",
+  appId: "1:1065572734890:web:c49e87d7bd89ca48f23dd3"
 })
 
 const auth = firebase.auth();
